@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'delete-confirm-angular';
+
+  l() {
+    alert("Hello World");
+  }
 }
