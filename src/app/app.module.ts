@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TDeleteConfirmDirective } from './tdelete-confirm.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TDeleteConfirmDirective
   ],
   imports: [
     BrowserModule,
